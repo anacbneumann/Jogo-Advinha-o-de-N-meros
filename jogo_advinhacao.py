@@ -50,7 +50,7 @@ while opcao_jogar_novamente == 'Sim':
                 print('\nNúmero secreto é maior do que o chutado.')
                 pontos_perdidos = numero_secreto - chute
             pontos = pontos - (pontos_perdidos * 3)
-    print('Fim do Jogo. Sua pontuação foi de.... {} Pontos.'.format(pontos))
+    print('Fim do Jogo.\nO número secreto é {} e sua pontuação foi de.... {} Pontos.'.format(numero_secreto, pontos))
 # Ou usar função abs para módulo: abs()
 # pontos_perdidos = abs(chute - numero_secreto)
 
